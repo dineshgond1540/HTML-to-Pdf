@@ -1,0 +1,140 @@
+
+body{
+    background: hsl(0, 8%, 93%);
+}
+#content{
+    background: hsl(0, 8%, 93%);
+
+}
+.trMain {
+    display: -webkit-box !important;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -25%;
+    margin-left: 12.5%;
+	
+}
+
+.trFst,.trSst {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.trSst {
+    width: 33.33333333%;
+}
+
+.trFst {
+    width: 66.66666667%;
+	overflow: hidden;
+}
+
+.trGl img {
+    width: 100%;
+}
+
+.dhead{
+  position: relative;
+}
+.tr-all-distance-cover {
+    padding-top: 40px;
+    position: relative;
+    overflow: hidden;
+    margin-top: -10px;
+    background: #fff;
+}
+.tr-dest-line {
+    position: relative;
+    display: flex
+}
+
+.tr-dest-line:after {
+    content: '';
+    position: absolute;
+    top: -42px;
+    left: 0;
+    background: url(/include/helifly_qz1ukv.png) center no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 50px;
+    animation: carRun 40s linear infinite;
+}
+.bust:after {
+    background: url(/include/travel-bus_ox4wze.png) center no-repeat;
+    height: 40px;
+    width: 98px;
+    top: -37px;
+}
+@keyframes carRun {
+    0% {
+        left: 0
+    }
+
+    100% {
+        left: 100%
+    }
+}
+
+.tr-dest-line .tr-line {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background: #893e14;
+    text-align: center
+}
+
+.tr-dest-line .tr-line p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 2px;
+    height: 12px;
+    background: #893e14
+}
+
+.tr-dest-line .tr-line p:before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border: 2px solid #065fd4;
+    border-radius: 50%
+}
+
+.tr-dest-line .tr-line.tr-tp p:before {
+    top: -3px
+}
+
+
+
+.tr-dest-line .tr-line.tr-tp p {
+    top: -12px
+}
+
+
+
+.tr-dest-line .tr-line small {
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+.tr-dest-line .tr-line.tr-tp small {
+    top: -34px
+}
+
+
+.tr-dest-line .tr-line-end {
+    width: auto
+}
+
